@@ -9,4 +9,4 @@ RUN pip3 install -r requirements.txt
 COPY . .
 EXPOSE 7000
 
-CMD [ "python", "main.py"]
+CMD [ "python", "route.py"]
